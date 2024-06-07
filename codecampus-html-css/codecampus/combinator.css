@@ -1,0 +1,92 @@
+
+/* Descendant selector */
+.parent h2{
+  color: red;
+}
+
+.parent p{
+  color: blue;
+}
+/* child selector */
+.parent>p{
+  background-color: blueviolet;
+}
+
+.Esther{
+  color: red;
+}
+/* Ajacent siblings selector */
+.may>.Esther{
+  color: chartreuse;
+}
+
+.Micheal{
+  color: orange;
+}
+
+.may>.Michael{
+  color: brown;
+}
+
+.Yemisi{
+  color: aqua;
+}
+
+.may>.Yemisi{
+  color: antiquewhite;
+}
+
+.Ozomenam+p{
+font-size: 30px;
+}
+
+.Michael+p{
+  background-color: pink;
+}
+.Esther+a{
+  font-size: 24px;
+}
+/* General sibling */
+.Michael~a{
+  color: purple;
+}
+
+/* pseudo class */
+.Michael:hover{
+  color: aqua;
+}
+
+/* pseudo element */
+.thing::before{
+  content: "spooky";
+}
+/* unvisited */
+a:link{
+  color: blue;
+  font-size: 24px;
+  background-color: aliceblue;
+  text-decoration: none;
+}
+
+/* visited */
+a:visited{
+  color: purple;
+  background-color: yellow;
+}
+
+/* active */
+a.active{
+  color: red;
+}
+
+ a:hover{
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  padding: 10px;
+
+ }
+
+ 
+
+

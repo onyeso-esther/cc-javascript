@@ -1,0 +1,34 @@
+p{
+  color: red;
+}
+h1{
+  color: blue;
+}
+body{
+  background-color: pink;
+}
+.purple{
+  color: purple;
+}
+.green{
+  color: green;
+}
+.orange{
+  color: orange;
+}
+.purple,.green,.orange{
+  background-color: black;
+}
+#color1{
+  color: yellow;
+}
+.font{
+  font-size: 30px;
+  color: aquamarine;
+}
+h2.green{
+  text-decoration: underline;
+}
+*{
+  text-align: center
+}

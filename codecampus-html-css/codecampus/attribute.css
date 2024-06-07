@@ -1,0 +1,55 @@
+/* the start substrings uses caret or hat ^  it picks the first */
+
+[class^="food"]{
+  color: red;
+}
+
+/* the end matching substring uses dollar sign $  it picks the last*/
+
+[class$="food"]{
+  color: blue;
+}
+/* contains an instance of certain matching substring * it picks the middle or any other position */
+
+[class*="spagheti"]{
+  color: green;
+}
+
+
+/* excercise */
+[data-type$=exercise]{
+ background-color: skyblue;
+}
+
+[class*="cream"]{
+  color: blue;
+  background-color: yellow;
+}
+
+
+/* chaining attribute selector */
+
+[data-activity-name="swimming"][ data-location="indoor"]{
+  color: plum;
+  font-size: 30px;
+}
+
+[data-activity-name="running"][data-location="indoor"]{
+  color: salmon;
+  font-size: 30px;
+}
+
+[ data-activity-name="cycling"][ data-location="outdoor"]{
+  color: greenyellow;
+  background-color: blueviolet;
+  font-size: 30px;
+}
+
+[data-activity-name="swimming"][data-location="outdoor"]{
+  color: white;
+  background-color: blue;
+  font-size: 30px;
+}
+
+
+

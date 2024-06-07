@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Assignment</title>
+  <style> 
+   .header{
+    color:white;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+   }
+  
+   .Theader{
+    background-color: rgb(157, 0, 55);
+    text-align: center;
+    padding-bottom: 1px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-top: 15px;
+    padding-top: 5px;
+   }
+  
+   
+   button {
+    background-color: rgb(177, 35, 35);
+    color: white;
+    border-radius: 40px;
+    width: 40%;
+    padding: 10px;
+   }
+  
+   .number-line {
+            position: absolute;
+            width: 20%;
+            margin: 50px auto;
+            height: 30px;
+            border: 1px solid #000;
+            border-radius: 200px;
+        }
+      
+        .number {
+            position: absolute;
+            font-size: 12px;
+        }
+        
+        .movable-button {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: blue;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        form{
+          background-color: pink;
+        }
+
+
+
+
+        /* input[type="text"]{
+          border: none;
+          background-color: transparent;
+          border-bottom: 20px solid red;
+        } */
+        
+
+        
+        
+        
+      
+  </style> 
+</head>
+<body style="background-color: white; align-items: center; display: flex; min-height: 100vh; justify-content: center; margin: 0;"><br>
+
+  <div class="fcontainer" style="background-color: rgb(6, 6, 34); margin: 10px; display: flex;"><br><br><br><br>
+    <div class="fcontainer1" style="border: none; background-color: pink; display: block; margin: 20px;">
+
+  <div class="board">
+  <div class="Theader">
+  <h1 class="header">Status Updates</h1>
+</div>
+
+
+  <form action="">
+    <div class="fheader"><br><br>
+
+          <label for="name">Name<span style="color: red;">*</span></label><br><br>
+
+          <input type="text" id="name" name="name" style="border:none; border-bottom: 2px solid; background: transparent; width:45% ;">
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 45%;"><br>
+          <label for="lname">First</label><label for="lname" style="margin-left: 130px;">Last</label><br><br>
+          
+
+
+          <h3>Where are you? <span style="color: red;">*</span></h3>
+
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+          <label for="lname">Street Address</label><br><br><br>
+
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+          <label for="lname">Address Line 2</label><br><br><br>
+
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+          <label for="lname">City</label><br><br><br>
+
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+          <label for="lname">State/Region/Province</label><br><br><br>
+
+          <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+          <label for="lname">Postal/ Zip Code</label><br><br><br>
+    </div>
+
+    
+
+      <select style="border: none; background-color: transparent; color: red;">
+        <option value="option1">-Select-</option>
+      </select><br>
+      <input type="text" id="name" name="name" style="border: none; border-bottom: 2px solid; background-color: transparent; width: 100%;"><br>
+      <label for="lname">Country</label><br><br><br>
+      
+      <h3> <label for="range">What's the progress?</label> <span style="color: red;">*</span></h3><br>
+      <input type="range" name="percentage" id="percentage" style="width: 95%;"> 
+    <br><br><br>
+
+  <div>
+      <h3>How soon can we finish the project? <span style="color: red;">*</span></h3>
+
+
+     <label><input type="radio" name="item" value="item1"> <span style="color: red;">Within this week</span></label><br><br>
+
+     <label><input type="radio" name="item" value="item2"> <span style="color: red;">1 to 2 Weeks</span></label><br><br>
+      
+     <label><input type="radio" name="item" value="item3"> <span style="color: red;">More than 2 weeks</span></label><br><br>
+     <div style="display: flex; justify-content: center;"><button style="border: none;">Submit</button></div><br><br>
+    </div>
+  </div>
+      </div>
+  
+    </div>
+  </form>
+  
+</body>
+</html>

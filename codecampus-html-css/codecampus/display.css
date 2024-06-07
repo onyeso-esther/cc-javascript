@@ -1,0 +1,73 @@
+/* over ride the display properties of elements */
+
+h1{
+  display: inline;
+}
+
+li.hori-navbar{
+  display: inline-block;
+  margin: 10px 70px;
+  list-style-type: none;
+  color: white;
+}
+
+ul.hori-navbar{
+  background-color: brown;
+}
+
+li.hori-navbar a{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+}
+
+li.hori-navbar a:hover{
+  color: yellow;
+}
+
+.verti-navbar{
+  background-color: grey;
+  width: 250px;
+  text-align: center;
+  padding: 0;
+
+}
+
+.verti{
+  list-style-type: none;
+  margin-top: 20px 0;
+  padding: 5px; 
+  border-bottom: 1px solid white;
+  /* border-top-left-radius: 5px; */
+  border-bottom-right-radius: 20px;
+
+}
+
+.verti a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  
+}
+
+.width{
+  width: 700px;
+  border: 1px solid red;
+  font-size: 20px;
+  margin: 10px;
+}
+ 
+.max-width{
+  max-width: 700px;
+  border: 1px solid red;
+  font-size: 20px;
+  margin: 10px;
+}
+ 
+.min-width{
+  min-width: 700px;
+  border: 1px solid red;
+  font-size: 20px;
+  margin: 10px;
+}
+ 
