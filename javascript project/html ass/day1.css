@@ -1,0 +1,70 @@
+body{
+    width: 1100px;
+    background-color:rgb(215, 215, 255);
+    max-width: 95%;
+    margin:auto;
+}
+
+h1{
+float:left;
+color:rgb(100,0,0);
+margin: 0;
+}
+
+header h2{
+    text-align: center;
+    font-weight: normal;
+    color:rgb(0,150,175);
+
+}
+section{
+    background:rgb(255,215, 215);
+    padding: 10px 100px; 
+    /* 10px here is for up & down Whlie 100m is 4 left and right*/
+    /* in a situation wehere i use i value (20px) it is applied to the 4 sides*/
+}
+
+section h2{
+    text-align: center;
+    color:rgb(0,100,150);
+}
+
+section p{
+    color:rgb(0,150,50);
+}
+
+article{
+    background:rgb(255,255,255);
+    float: left;
+    /*width: 33.3*/
+    /*the width ordinarily should be 33.3%  * 3 will give use 100 which is the width of the body, 
+    if we add the 1% margin on each it will be 106 so it wont sit well
+    what we do here is to minus 2 from the width making it 31.1%  */
+    margin: 1%;
+    /*width: 31.3%;*/
+    /*also since we are puting 1% padding we will minus 2 from the width wich
+    is 29.3*/
+    width: 29.3%;
+    padding: 1%;
+    height: 200px;
+}
+h3{
+    color: rgba(55, 0, 255, 0.404);
+}
+article p{
+   color: rgba(179, 90, 159, 0.596) 
+}
+
+li{
+    color: rgb(175, 33, 33);
+
+}
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    clear: left;
+    /*clear removes the float */
+    padding: 25px;
+
+}
